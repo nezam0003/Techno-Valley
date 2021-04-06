@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 :root {
+  --title: rgb(10, 10, 51);
+  --subtitle: #a9c927;
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
@@ -17,12 +19,15 @@
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 body {
+  background: var(--mainWhite);
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
+
+/* Navbar */
 
 .v-header {
   clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
@@ -74,9 +79,28 @@ body {
   display: block;
   padding-bottom: 2rem;
 }
+.header-content .btn {
+  border-color: var(--subtitle);
+  background: transparent;
+  color: var(--subtitle);
+  letter-spacing: var(--mainSpacing);
+  font-size: 1.5rem;
+  transition: var(--mainTransition);
+}
+.header-content .btn:hover {
+  background: #cdf822;
+  color: var(--mainBlack);
+}
+
+/* Global style */
+.title {
+  color: var(--title);
+}
+.subtitle {
+  color: var(--subtitle);
+}
 
 /* Home */
 .home {
   width: 100%;
-  min-height: 500px;
 }
