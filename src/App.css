@@ -23,19 +23,13 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
+
 .v-header {
-  min-height: calc(100vh - 81px);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  color: #fff;
-}
-
-.v-container {
-  max-width: 960px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: auto;
-  text-align: center;
+  color: var(--mainWhite);
 }
 
 .fullscreen-video-wrap {
@@ -73,8 +67,16 @@ body {
 }
 
 .header-content p {
+  max-width: 75%;
+  margin: 0 auto;
   color: var(--mainGrey);
   font-size: 1.5rem;
   display: block;
   padding-bottom: 2rem;
+}
+
+/* Home */
+.home {
+  width: 100%;
+  min-height: 500px;
 }

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <header className="v-header v-container">
+      <header className="v-header container-fluid text-center">
         <div className="fullscreen-video-wrap">
           <video src={backGroundVideo} autoPlay loop muted />
         </div>
@@ -25,6 +25,7 @@ const Home = () => {
           </Link>
         </div>
       </header>
+      <section className="home bg-dark">hello</section>
     </>
   );
 };
