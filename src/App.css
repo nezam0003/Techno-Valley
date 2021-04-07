@@ -104,3 +104,17 @@ body {
 .home {
   width: 100%;
 }
+
+/* Client section */
+.clients {
+  background: #f7f8fc;
+  /* padding: 5rem; */
+  width: 100%;
+  min-height: 100vh;
+}
+
+.clients .client-img:hover {
+  border-color: var(--subtitle) !important;
+  transform: scale(1.1);
+  transition: var(--mainTransition);
+}

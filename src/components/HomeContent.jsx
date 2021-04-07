@@ -6,7 +6,7 @@ const HomeContent = () => {
     <section className="home">
       <Title title="message from" subtitle="chairman" />
       <div className="container">
-        <div className="row mt-5">
+        <div className="row">
           <div className="col-10 mx-auto">
             <div className="row">
               <div className="col-md-6 mb-3 mb-md-0 ">
