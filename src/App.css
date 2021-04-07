@@ -105,10 +105,10 @@ body {
   width: 100%;
 }
 
-/* Client section */
+/* Client section  start*/
 .clients {
   background: #f7f8fc;
-  /* padding: 5rem; */
+  padding-bottom: 3rem;
   width: 100%;
   min-height: 100vh;
 }
@@ -118,3 +118,10 @@ body {
   transform: scale(1.1);
   transition: var(--mainTransition);
 }
+.clients-feed-back {
+  background: var(--mainWhite);
+  color: var(--mainBlack);
+  width: 100%;
+  min-height: 100vh;
+}
+/* Client section end */

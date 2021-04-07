@@ -25,6 +25,7 @@ import img21 from "../images/clients/wash-and-work.jpg";
 import img22 from "../images/clients/vella_laser.jpg";
 import img23 from "../images/clients/spanish.jpg";
 import img24 from "../images/clients/pharma.jpg";
+import ClientsFeedBack from "../components/ClientsFeedBack";
 
 const Clients = () => {
   const allImages = [
@@ -53,7 +54,6 @@ const Clients = () => {
     img23,
     img24,
   ];
-  console.log(allImages);
   return (
     <>
       <div className="clients pt-3">
@@ -62,9 +62,12 @@ const Clients = () => {
         </div>
         <div className="container">
           <div className="row">
-            {allImages.map((image) => {
+            {allImages.map((image, index) => {
               return (
-                <div className="col-7 mx-auto mx-md-0 col-sm-6 col-md-4 col-lg-3  mb-3">
+                <div
+                  key={index}
+                  className="col-7 mx-auto mx-md-0 col-sm-6 col-md-4 col-lg-3  mb-3"
+                >
                   <img
                     src={image}
                     alt="img1"
@@ -76,6 +79,7 @@ const Clients = () => {
           </div>
         </div>
       </div>
+      <ClientsFeedBack />
     </>
   );
 };
