@@ -2,6 +2,7 @@ import React from "react";
 import backGroundVideo from "../videos/backgroundVdo.mov";
 import { Link } from "react-router-dom";
 import HomeContent from "../components/HomeContent";
+import OurSolutions from "../components/OurSolutions";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
         </div>
       </header>
       <HomeContent />
+      <OurSolutions />
     </>
   );
 };

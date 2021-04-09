@@ -106,7 +106,8 @@ body {
 }
 
 /* Client section  start*/
-.clients {
+.clients,
+.our-solutions {
   background: #f7f8fc;
   padding-bottom: 3rem;
   width: 100%;
@@ -124,4 +125,12 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+.fixed-height {
+  height: 100% !important;
+  background-color: red;
+}
+/* .our-solutions img {
+  max-width: 100%;
+  height: auto;
+} */
 /* Client section end */
