@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 import Navbar from "./components/Navbar";
 import Clients from "./pages/Clients";
 import Gallery from "./pages/Gallery";
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/signup" component={Signup} />
       </Switch>
+      <Footer />
     </>
   );
 };

@@ -20,6 +20,7 @@
 }
 body {
   background: var(--mainWhite);
+  color: var(--mainBlack);
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -125,12 +126,4 @@ body {
   width: 100%;
   min-height: 100vh;
 }
-.fixed-height {
-  height: 100% !important;
-  background-color: red;
-}
-/* .our-solutions img {
-  max-width: 100%;
-  height: auto;
-} */
 /* Client section end */

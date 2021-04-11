@@ -1,4 +1,5 @@
 import React from "react";
+import { MyCard, MyCardBody, MyCardText, MyCardImg } from "./MyStyled";
 
 import testing from "../images/Solutions/testing.svg";
 import testing1 from "../images/Solutions/testing-01.svg";
@@ -33,18 +34,8 @@ import arVr1 from "../images/Solutions/ar-vr-01.svg";
 import appDevelopment from "../images/Solutions/app-development.svg";
 import appDevelopment1 from "../images/Solutions/app-development-01.svg";
 
-import Title from "./Title";
-import {
-  Card,
-  CardBody,
-  CardText,
-  CardImg,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
-
 import Carousel from "react-elastic-carousel";
+import Title from "./Title";
 
 const breakPoints = [
   {
@@ -177,15 +168,14 @@ const OurSolutions = () => {
         "Supports team are always there to help you in need, 24/7/365 around..",
     },
   ];
-
   return (
     <>
       <div className="our-solutions">
         <div className="pt-3">
           <Title title="Our" subtitle="Solutions" />
         </div>
-        <Container>
-          <Row>
+        <div className="container">
+          <div className="row">
             <Carousel
               enableAutoPlay
               autoPlaySpeed={1500}
@@ -194,20 +184,18 @@ const OurSolutions = () => {
             >
               {solutions.map((solution) => {
                 return (
-                  <Col key={solution.id}>
-                    <Card className="h-100">
-                      <CardBody>
-                        <CardImg src={solution.img1} alt="img1" />
-                        <CardImg src={solution.img2} alt="img2" />
-                        <CardText>{solution.description} </CardText>
-                      </CardBody>
-                    </Card>
-                  </Col>
+                  <MyCard key={solution.id}>
+                    <MyCardBody>
+                      <MyCardImg src={solution.img1} alt="img1" />
+                      <MyCardImg src={solution.img2} alt="img1" />
+                      <MyCardText>{solution.description}</MyCardText>
+                    </MyCardBody>
+                  </MyCard>
                 );
               })}
             </Carousel>
-          </Row>
-        </Container>
+          </div>
+        </div>
       </div>
     </>
   );
