@@ -6,7 +6,7 @@ import Clients from "./pages/Clients";
 import Gallery from "./pages/Gallery";
 import Home from "./pages/Home";
 import Service from "./pages/Service";
-import Signup from "./pages/Signup";
+import Contact from "./pages/Contact";
 import Team from "./pages/Team";
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
         <Route exact path="/clients" component={Clients} />
         <Route exact path="/team" component={Team} />
         <Route exact path="/gallery" component={Gallery} />
-        <Route exact path="/signup" component={Signup} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
       <Footer />
     </>

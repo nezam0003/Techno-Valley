@@ -31,7 +31,10 @@ footer {
   width: 100%;
 }
 /* Navbar */
-
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
 .v-header {
   clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
   min-height: 100vh;
@@ -110,7 +113,8 @@ footer {
 
 /* Client section  start*/
 .clients,
-.our-solutions {
+.our-solutions,
+.contact {
   background: #f7f8fc;
   padding-bottom: 3rem;
   width: 100%;
@@ -135,3 +139,8 @@ footer {
 }
 
 /* Partner end */
+
+/* contact */
+.contact {
+  padding-top: 100px;
+}
