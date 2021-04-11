@@ -27,7 +27,9 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
-
+footer {
+  width: 100%;
+}
 /* Navbar */
 
 .v-header {
@@ -127,3 +129,9 @@ body {
   min-height: 100vh;
 }
 /* Client section end */
+/* Partner start */
+.partner {
+  padding-bottom: 3rem;
+}
+
+/* Partner end */

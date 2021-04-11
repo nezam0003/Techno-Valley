@@ -69,8 +69,7 @@ const OurSolutions = () => {
       id: 2,
       img1: itInfraction,
       img2: itInfraction1,
-      description:
-        "Techno-Valley has IT Infrastructure Solutions with Trained and Certified",
+      description: "Techno-Valley has IT Infrastructure Solutions",
     },
     {
       id: 3,
@@ -177,6 +176,7 @@ const OurSolutions = () => {
         <div className="container">
           <div className="row">
             <Carousel
+              showArrows={false}
               enableAutoPlay
               autoPlaySpeed={1500}
               itemPadding={[0, 24]}

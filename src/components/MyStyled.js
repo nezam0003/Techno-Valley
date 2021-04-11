@@ -11,7 +11,7 @@ const MyCard = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #a9c927;
   border-radius: 0.25rem;
 `;
 const MyCardBody = styled.div`
@@ -35,5 +35,21 @@ const MyCardImg = styled.img`
   max-width: 100%;
   height: auto;
 `;
+const PartnerCard = styled.div`
+  width: 100%;
+  max-width: 13.5rem;
+  height: 7.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+`;
 
-export { MyCard, MyCardBody, MyCardText, MyCardImg };
+const PartnerImage = styled.img`
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #a9c927;
+  border-radius: 0rem 1rem 0rem 1rem;
+`;
+
+export { MyCard, MyCardBody, MyCardText, MyCardImg, PartnerCard, PartnerImage };

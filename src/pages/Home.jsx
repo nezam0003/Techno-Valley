@@ -3,6 +3,7 @@ import backGroundVideo from "../videos/backgroundVdo.mov";
 import { Link } from "react-router-dom";
 import HomeContent from "../components/HomeContent";
 import OurSolutions from "../components/OurSolutions";
+import Partner from "../components/Partner";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       </header>
       <HomeContent />
       <OurSolutions />
+      <Partner />
     </>
   );
 };
