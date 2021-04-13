@@ -170,9 +170,7 @@ const OurSolutions = () => {
   return (
     <>
       <div className="our-solutions">
-        <div className="pt-3">
-          <Title title="Our" subtitle="Solutions" />
-        </div>
+        <Title title="Our" subtitle="Solutions" />
         <div className="container">
           <div className="row">
             <Carousel

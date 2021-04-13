@@ -114,9 +114,10 @@ footer {
 /* Client section  start*/
 .clients,
 .our-solutions,
-.contact {
+.contact,
+.service {
   background: #f7f8fc;
-  padding-bottom: 3rem;
+  padding: 3rem 0rem;
   width: 100%;
   min-height: 100vh;
 }
@@ -144,3 +145,28 @@ footer {
 .contact {
   padding-top: 100px;
 }
+
+/* Service start */
+.underline {
+  width: 100%;
+  max-width: 10rem;
+  height: 0.15rem;
+  background: var(--subtitle);
+  margin-bottom: 0.5rem;
+}
+.service-image {
+  width: 100%;
+  max-width: 26rem;
+  height: 100%;
+  max-height: 26.8rem;
+}
+.service-content {
+  transition: var(--mainTransition);
+}
+.service-content :hover {
+  background: var(--title);
+  color: var(--mainWhite) !important;
+  transition: var(--mainTransition);
+}
+
+/* Service end */
