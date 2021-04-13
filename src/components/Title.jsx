@@ -3,8 +3,8 @@ import React from "react";
 const Title = ({ title, subtitle }) => {
   return (
     <div className="container">
-      <div className="row my-5">
-        <div className="col d-flex flex-wrap text-capitalize justify-content-center">
+      <div className="row">
+        <div className="col d-flex flex-wrap text-capitalize justify-content-center mb-5">
           <h1 className="font-weight-bold align-self-center title mx-1">
             {title}
           </h1>

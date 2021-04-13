@@ -56,10 +56,9 @@ const Clients = () => {
   ];
   return (
     <>
-      <div className="clients pt-3">
-        <div className="pt-5">
-          <Title title="our" subtitle="clients" />
-        </div>
+      <div className="clients">
+        <Title title="our" subtitle="clients" />
+
         <div className="container">
           <div className="row">
             {allImages.map((image, index) => {

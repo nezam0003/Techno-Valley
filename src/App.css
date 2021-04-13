@@ -179,3 +179,20 @@ footer {
 }
 
 /* Service end */
+
+/* Team start  */
+/* .team .card {
+  position: relative !important;
+} */
+/* .team .card-body img {
+  position: absolute !important;
+  max-width: 200px;
+  max-height: 200px;
+  top: -60%;
+  left: 50%;
+  border-radius: 50%;
+} */
+.team .card-body {
+  background: var(--title) !important;
+}
+/* Team start End */

@@ -57,7 +57,7 @@ const ClientsFeedBack = () => {
                   <img
                     src={client.image}
                     alt="client"
-                    className="card-img-top rounded-circle"
+                    className="img-responsive img-fluid rounded-circle"
                   />
                   <div className="card-body">
                     <h5 className="card-title">{client.name}</h5>
