@@ -110,14 +110,19 @@ footer {
 .home {
   width: 100%;
 }
+.our-solutions {
+  background: #f7f8fc;
+  padding: 1rem 0rem;
+}
 
 /* Client section  start*/
 .clients,
-.our-solutions,
 .contact,
-.service {
+.service,
+.gallery,
+.team {
   background: #f7f8fc;
-  padding: 3rem 0rem;
+  padding: 6rem 0rem 3rem 0rem;
   width: 100%;
   min-height: 100vh;
 }
