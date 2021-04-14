@@ -195,4 +195,9 @@ footer {
 .team .card-body {
   background: var(--title) !important;
 }
+.team .team-image img {
+  width: 100%;
+  /* max-width: 20rem; */
+  height: 22rem;
+}
 /* Team start End */
