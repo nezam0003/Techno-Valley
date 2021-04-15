@@ -19,7 +19,7 @@ const Home = () => {
             <span className="subtitle">Valley</span>
           </h1>
           <p>
-            Web, mobile, infrastructure, cloud and software development
+            Web, Mobile, infrastructure, cloud and software development
             solutions for all your enterprise needs. we will turn your idea into
             a market.
           </p>
