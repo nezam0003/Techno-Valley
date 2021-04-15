@@ -113,10 +113,11 @@ footer {
 /* Home */
 .home {
   width: 100%;
+  padding: 2.5rem 0rem;
 }
 .our-solutions {
   background: #f7f8fc;
-  padding: 1rem 0rem;
+  padding: 2.5rem 0rem;
 }
 
 /* Client section  start*/
@@ -131,21 +132,33 @@ footer {
   min-height: 100vh;
 }
 
-.clients .client-img:hover {
-  border-color: var(--subtitle) !important;
-  transform: scale(1.1);
-  transition: var(--mainTransition);
+/* Client and gallery image container hover style start */
+.client-img-container,
+.gallery-img-container {
+  overflow: hidden;
 }
+.client-img,
+.photo {
+  transition: all 1s ease-in-out;
+}
+.client-img-container:hover .client-img,
+.gallery-img-container:hover .photo {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+/* Client and gallery image container hover style end */
+
 .clients-feed-back {
   background: var(--mainWhite);
   color: var(--mainBlack);
   width: 100%;
   min-height: 100vh;
+  padding: 2.5rem 0rem;
 }
 /* Client section end */
 /* Partner start */
 .partner {
-  padding-bottom: 3rem;
+  padding: 2.5rem 0rem;
 }
 
 /* Partner end */
@@ -181,23 +194,17 @@ footer {
 /* Service end */
 
 /* Team start  */
-/* .team .card {
-  position: relative !important;
-} */
-/* .team .card-body img {
-  position: absolute !important;
-  max-width: 200px;
-  max-height: 200px;
-  top: -60%;
-  left: 50%;
-  border-radius: 50%;
-} */
+
 .team .card-body {
   background: var(--title) !important;
 }
 .team .team-image img {
   width: 100%;
   /* max-width: 20rem; */
-  height: 22rem;
+  height: 20rem;
 }
-/* Team start End */
+/* Team End */
+
+/* Gallery start */
+
+/* Gallery end */

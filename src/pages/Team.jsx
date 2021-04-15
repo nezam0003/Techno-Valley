@@ -85,7 +85,7 @@ const members = [
   {
     id: 12,
     image: team12,
-    name: "emon ahmed",
+    name: "emon",
     position: "software enginner",
   },
 ];

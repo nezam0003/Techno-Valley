@@ -67,11 +67,13 @@ const Clients = () => {
                   key={index}
                   className="col-7 mx-auto mx-md-0 col-sm-6 col-md-4 col-lg-3  mb-3"
                 >
-                  <img
-                    src={image}
-                    alt="img1"
-                    className="img-fluid client-img border"
-                  />
+                  <div className="client-img-container">
+                    <img
+                      src={image}
+                      alt="img1"
+                      className="img-fluid client-img border"
+                    />
+                  </div>
                 </div>
               );
             })}
